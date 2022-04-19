@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="calc.css"/>
+        <script src="calc.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-info" >
+                <div class="panel-heading" id="calcheading">
+                    <h1>Calculator</h1> 
+                </div>
+                <div class="panel-body">
+                    <label class="labeldes">Enter the first number</label><br>
+                    <input class="form-control" id="first"/><br>
+                    <label class="labeldes">Enter the second number</label><br>
+                    <input class="form-control" id="second"/><br>
+                    <p class="output"></p>
+                    <button class="btn btn-info" onClick="calc('Add')">Add</button>
+                    <button class="btn btn-info" onClick="calc('Sub')">Sub</button><br><br>
+                    <button class="btn btn-info" onClick="calc('div')">Div</button>
+                    <button class="btn btn-info" onClick="calc('mul')">Mul</button>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

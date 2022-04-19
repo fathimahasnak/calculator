@@ -1,0 +1,27 @@
+#calcheading {
+    font-size: 100px !important;
+    color: palevioletred;
+    align-content: center;
+}
+body{
+    background-color: antiquewhite;
+}
+
+
+.panel{
+    margin-top: 90px;
+    margin-left: 28%;
+    height: 430px;
+    width:50%;
+}
+
+.labeldes{
+    font-size: 20px;
+    color: palevioletred;
+
+}
+
+.btn{
+    width: 48%;
+    color: white;
+}
